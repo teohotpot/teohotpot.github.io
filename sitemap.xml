@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" generatedBy="WIX">
-<sitemap>
-<loc>https://www.teohotpot.co.uk/restaurants-menu-sitemap.xml</loc>
-<lastmod>2024-09-10</lastmod>
-</sitemap>
-<sitemap>
-<loc>https://www.teohotpot.co.uk/pages-sitemap.xml</loc>
-<lastmod>2024-12-05</lastmod>
-</sitemap>
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.teohotpot.co.uk/</loc></url>
+  <url><loc>https://www.teohotpot.co.uk/about-us</loc></url>
+  <url><loc>https://www.teohotpot.co.uk/menu</loc></url>
+  <url><loc>https://www.teohotpot.co.uk/beef</loc></url>
+  <url><loc>https://www.teohotpot.co.uk/location</loc></url>
+  <url><loc>https://www.teohotpot.co.uk/book-a-table</loc></url>
+  <url><loc>https://www.teohotpot.co.uk/terms-and-conditions</loc></url>
+</urlset>

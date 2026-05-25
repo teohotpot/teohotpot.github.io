@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beef | TEO Hot Pot</title>
+  <meta name="description" content="TEO Hot Pot beef cuts, from short rib and shin tender to fresh beef balls and ox tongue.">
+  <link rel="icon" href="https://static.wixstatic.com/media/c26259_89fa2715d03443e3b5a7193c9b812112~mv2.png" type="image/png">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="page-beef">
+  <header class="site-header" data-header>
+    <button class="brand brand-button" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-drawer" data-menu-toggle>
+      <img src="https://static.wixstatic.com/media/c26259_89fa2715d03443e3b5a7193c9b812112~mv2.png" alt="" width="48" height="48">
+      <span class="sr-only">TEO Hot Pot</span>
+    </button>
+    <a class="header-book" href="https://www.opentable.co.uk/r/teo-hotpot-london" rel="noopener">Book a table</a>
+  </header>
+
+  <aside class="nav-drawer" id="site-drawer" aria-hidden="true" data-nav-drawer>
+    <nav class="drawer-nav" aria-label="Main navigation">
+      <a href="beef.html" aria-current="page">Beef</a>
+      <a href="menu.html">Menu</a>
+      <a href="about-us.html">About us</a>
+      <a href="location.html">Location</a>
+    </nav>
+  </aside>
+
+  <main class="beef-main">
+    <section class="beef-map-section" id="beef-cuts">
+      <div class="beef-section-heading reveal-copy" data-reveal>
+        <p class="section-kicker">Interactive beef map</p>
+        <h1>Choose by cut. Click to taste the detail.</h1>
+      </div>
+
+      <div class="beef-map-wrap reveal-copy" data-reveal>
+        <figure class="cow-map-card" aria-label="Interactive cow diagram with selectable beef cuts">
+          <div class="cow-map-stage">
+            <svg class="cow-map-art has-reference" viewBox="20 200 990 710" role="img" aria-labelledby="cow-map-title cow-map-desc">
+              <title id="cow-map-title">TEO beef cut map</title>
+              <desc id="cow-map-desc">Select a beef cut to view texture, fat ratio and pairing recommendations.</desc>
+              <image class="cow-reference-image" href="assets/beef-map-reference.png" x="0" y="0" width="1080" height="1080" preserveAspectRatio="xMidYMid meet" />
+
+              <path class="cow-silhouette" d="M38 375 C100 330 128 288 160 252 C148 230 152 198 170 219 C194 250 236 226 214 217 C192 176 192 135 214 153 C259 189 288 230 291 248 C319 247 344 247 356 257 C369 269 358 292 344 300 M290 248 C445 263 585 271 820 260 C887 252 947 262 975 340 C998 404 984 478 946 516 M961 383 C984 418 982 465 962 503" />
+
+              <path class="cow-silhouette cow-silhouette-soft" d="M206 358 C155 329 92 338 38 375 M248 477 C229 436 224 382 206 358 M302 394 C282 425 270 449 248 477" />
+              <path class="cow-silhouette cow-leg-line" d="M448 654 C433 731 421 803 420 850 C412 870 402 878 386 880 M928 524 C925 654 934 773 946 838 C959 867 943 891 909 887 C892 883 899 857 919 832 C904 707 903 606 928 524" />
+
+              <g class="cut-zone" data-cut-key="ox-cheek" role="button" tabindex="0" aria-label="Ox cheek" aria-pressed="false">
+                <path class="cut-zone-shape" d="M176 319 C212 282 237 259 268 260 C296 260 314 278 319 309 C326 351 309 389 270 432 C237 422 219 389 206 358 C196 338 187 328 176 319 Z" />
+                <text class="cut-zone-label label-tiny" x="248" y="337">Ox Cheek</text>
+              </g>
+              <g class="cut-zone" data-cut-key="ox-tongue" role="button" tabindex="0" aria-label="Ox tongue" aria-pressed="false">
+                <path class="cut-zone-shape" d="M38 375 C92 338 166 334 210 352 C226 363 237 398 248 477 C199 447 156 438 105 439 C62 438 32 413 36 384 C36 381 37 378 38 375 Z" />
+                <text class="cut-zone-label" x="126" y="408">Ox Tongue</text>
+              </g>
+              <g class="cut-zone" data-cut-key="chuck-flap" role="button" tabindex="0" aria-label="Chuck flap" aria-pressed="false">
+                <path class="cut-zone-shape" d="M306 318 C404 321 488 328 565 334 C568 357 563 383 550 403 C478 403 411 400 357 408 C338 399 312 395 302 390 C301 360 299 334 306 318 Z" />
+                <text class="cut-zone-label" x="440" y="372">Chuck Flap</text>
+              </g>
+              <g class="cut-zone" data-cut-key="crispy-fat" role="button" tabindex="0" aria-label="Crispy fat" aria-pressed="false">
+                <path class="cut-zone-shape" d="M302 394 C336 410 365 447 383 502 C389 552 374 600 340 624 L248 477 C271 444 282 416 302 394 Z" />
+                <text class="cut-zone-label label-small" x="316" y="483">
+                  <tspan x="316" dy="0">CRISPY</tspan>
+                  <tspan x="316" dy="30">FAT</tspan>
+                </text>
+              </g>
+              <g class="cut-zone" data-cut-key="wagyu-marbling" role="button" tabindex="0" aria-label="British Wagyu Marbling King" aria-pressed="false">
+                <path class="cut-zone-shape" d="M381 421 C449 405 525 411 619 434 L610 493 L392 489 C370 465 361 445 381 421 Z" />
+                <text class="cut-zone-label label-small" x="493" y="453">
+                  <tspan x="493" dy="0">British Wagyu</tspan>
+                  <tspan x="493" dy="30">Marbling King</tspan>
+                </text>
+              </g>
+              <g class="cut-zone" data-cut-key="boneless-ribs" role="button" tabindex="0" aria-label="Boneless ribs" aria-pressed="false">
+                <path class="cut-zone-shape" d="M391 506 L609 502 L604 585 L385 576 C379 550 379 523 391 506 Z" />
+                <text class="cut-zone-label label-small" x="493" y="543">Boneless Ribs</text>
+              </g>
+              <g class="cut-zone" data-cut-key="flat-iron" role="button" tabindex="0" aria-label="Flat iron" aria-pressed="false">
+                <path class="cut-zone-shape" d="M386 594 C456 589 526 597 606 612 L571 665 C503 656 440 646 392 649 C364 638 359 613 386 594 Z" />
+                <text class="cut-zone-label" x="486" y="627">Flat Iron</text>
+              </g>
+              <g class="cut-zone" data-cut-key="rib-eye" role="button" tabindex="0" aria-label="Rib eye" aria-pressed="false">
+                <path class="cut-zone-shape" d="M563 334 C655 338 735 336 819 333 C803 361 793 391 783 412 C711 432 631 430 575 418 C544 399 538 375 563 334 Z" />
+                <text class="cut-zone-label" x="668" y="383">Rib Eye</text>
+              </g>
+              <g class="cut-zone" data-cut-key="hanger-steak" role="button" tabindex="0" aria-label="Hanger steak" aria-pressed="false">
+                <path class="cut-zone-shape" d="M621 435 L788 433 C789 464 793 493 797 519 C737 516 682 508 620 502 Z" />
+                <text class="cut-zone-label label-tiny" x="701" y="478">Hanger Steak</text>
+              </g>
+              <g class="cut-zone" data-cut-key="brisket" role="button" tabindex="0" aria-label="Brisket" aria-pressed="false">
+                <path class="cut-zone-shape" d="M619 525 C682 524 735 532 791 541 C788 571 773 591 750 598 C702 596 658 586 619 579 C601 559 600 540 619 525 Z" />
+                <text class="cut-zone-label" x="694" y="567">Brisket</text>
+              </g>
+              <g class="cut-zone" data-cut-key="flank" role="button" tabindex="0" aria-label="Flank, 14 days dry aged" aria-pressed="false">
+                <path class="cut-zone-shape" d="M610 600 C667 608 721 605 777 611 C803 630 816 650 807 668 C769 695 698 690 635 674 C605 664 592 638 610 600 Z" />
+                <text class="cut-zone-label label-tiny" x="687" y="637">
+                  <tspan x="687" dy="0">Flank</tspan>
+                  <tspan x="687" dy="24">(14 Days Dry Aged)</tspan>
+                </text>
+              </g>
+              <g class="cut-zone" data-cut-key="picanha" role="button" tabindex="0" aria-label="Picanha" aria-pressed="false">
+                <path class="cut-zone-shape" d="M821 333 C884 326 947 333 974 384 C995 423 979 498 942 518 C898 527 854 523 814 520 C792 480 787 432 788 392 C792 366 803 344 821 333 Z" />
+                <text class="cut-zone-label" x="872" y="435">Picanha</text>
+              </g>
+              <g class="cut-zone" data-cut-key="fore-shin" role="button" tabindex="0" aria-label="Fore shin" aria-pressed="false">
+                <path class="cut-zone-shape" d="M372 648 L452 654 C438 726 424 794 415 863 C407 887 384 893 358 884 C368 846 372 810 366 772 C366 727 371 688 372 648 Z" />
+                <text class="cut-zone-label label-small" x="388" y="679">
+                  <tspan x="388" dy="0">FORE</tspan>
+                  <tspan x="388" dy="30">SHIN</tspan>
+                </text>
+              </g>
+              <g class="cut-zone" data-cut-key="hind-shin" role="button" tabindex="0" aria-label="Hind shin" aria-pressed="false">
+                <path class="cut-zone-shape" d="M804 531 C847 592 887 653 898 715 C888 775 856 812 846 861 C831 880 802 888 782 876 C789 833 823 799 831 744 C831 694 800 652 771 603 Z" />
+                <text class="cut-zone-label label-small" x="845" y="637">
+                  <tspan x="845" dy="0">HIND</tspan>
+                  <tspan x="845" dy="30">SHIN</tspan>
+                </text>
+              </g>
+            </svg>
+          </div>
+        </figure>
+      </div>
+
+      <article class="cut-detail-card reveal-copy" data-reveal data-cut-panel aria-live="polite">
+        <div class="cut-detail-title">
+          <h3 data-cut-name>Rib eye</h3>
+        </div>
+        <p class="cut-summary" data-cut-summary>Marbled, juicy and deeply beefy. A classic first order when you want a tender slice with a rounded finish.</p>
+        <div class="cut-detail-grid">
+          <div>
+            <span>Fat ratio</span>
+            <strong data-cut-fat>Medium-high, about 30-35%</strong>
+          </div>
+          <div>
+            <span>Mouthfeel</span>
+            <strong data-cut-texture>Tender, juicy, lightly springy</strong>
+          </div>
+          <div>
+            <span>Cocktail recommend</span>
+            <strong data-cut-cocktail>Plum Spritz</strong>
+          </div>
+          <div>
+            <span>Broth recommend</span>
+            <strong data-cut-broth>Mooli clear beef broth</strong>
+          </div>
+        </div>
+        <a class="text-link" href="menu.html#beef">See beef menu</a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <a class="footer-brand" href="index.html">TEO HOT POT</a>
+      <p>28 Store Street, London WC1E 7BS</p>
+    </div>
+    <nav aria-label="Footer navigation">
+      <a href="about-us.html">About us</a>
+      <a href="menu.html">Menu</a>
+      <a href="location.html">Location</a>
+      <a href="https://www.opentable.co.uk/r/teo-hotpot-london" rel="noopener">Book</a>
+    </nav>
+  </footer>
+
+  <script src="assets/site.js"></script>
+</body>
+</html>
